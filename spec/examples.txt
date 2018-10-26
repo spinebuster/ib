@@ -1,0 +1,4 @@
+example_id                          | status | run_time        |
+----------------------------------- | ------ | --------------- |
+./spec/routes/facts_spec.rb[1:1]    | passed | 0.00273 seconds |
+./spec/routes/frontend_spec.rb[1:1] | passed | 0.001 seconds   |

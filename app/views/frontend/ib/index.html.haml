@@ -1,0 +1,18 @@
+- content_for :javascripts do
+  = javascript_include_tag 'ib/sprockets'
+
+  :javascript
+    $(document).ready(
+      function() {
+        Ib.application(
+          {
+            locale: "en",
+            el: '#ib',
+            locales: "#{j I18n.available_locales.to_json.html_safe}"
+          }
+        );
+      }
+    );
+
+- content_for :stylesheets do
+  = stylesheet_link_tag 'application'
