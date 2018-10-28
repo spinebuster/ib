@@ -10,7 +10,7 @@ Ib.router = function() {
 
     // Facts routes
     var _facts = function() {
-      return _baseEvents.initializeModule('Facts');
+      return _baseEvents.initialize('Facts');
     };
 
     // JS App routes

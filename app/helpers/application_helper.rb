@@ -5,4 +5,4 @@ module ApplicationHelper
   def application_title
     I18n.t('title')
   end
-  end
+end

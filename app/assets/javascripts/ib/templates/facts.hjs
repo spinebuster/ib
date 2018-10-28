@@ -1,0 +1,17 @@
+<div class="col-lg-12 col-md-12">
+  <form class= "form-horizontal" role="form" id="factsForm">
+      <div class="form-group text-center">
+        <div class="field col-lg-3 col-md-3">
+            <select id="selectCategory" name="selectCategory" class="form-control" data-field="category">
+            <option value="">{{I18nize 'js.facts.categories.random' this}}</option>
+            {{#each categories}}
+              <option value="{{this}}">{{I18nize 'js.facts.categories' this}}</option>
+            {{/each}}
+            </select>
+        </div>
+            <div class="col-lg-1 col-md-1">
+              <button type="button" class="btn btn-primary" id="btnSearch">{{I18nize 'js.search'}}</button>
+            </div>
+      </div>
+  </form>
+</div>

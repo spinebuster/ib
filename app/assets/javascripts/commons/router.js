@@ -14,16 +14,9 @@ Commons.router = function(core) {
     });
   };
 
-  var pagination = function(module, data, pagination) {
-    return reload(module, data).then(function() {
-      return reload('Pagination', pagination);
-    });
-  };
-
   return {
     reload: reload,
     stop: stop,
-    initialize: initialize,
-    pagination: pagination
+    initialize: initialize
   };
 };

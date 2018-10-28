@@ -2,7 +2,6 @@ NS('Commons.scaleapp');
 
 Commons.scaleapp.pluginPromises = function(core, options) {
   var _moduleStart = function(module, config) {
-    debugger;
     return new Promise(function(resolve, error) {
       core.start(module, {options: config}, resolve);
     });

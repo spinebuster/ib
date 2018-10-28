@@ -19,10 +19,11 @@
 //= require ../commons/libs/hasher
 //= require ../commons/libs/namespaces
 //= require ../commons/libs/scaleApp
+//= require ../commons/libs/lodash
+//= require ../commons/libs/ramda
 //= require ../commons/libs/backbone
 //= require ../commons/libs/bluebird
-//= require ../commons/libs/ramda
-//= require ../commons/libs/lodash
+//= require ../commons/libs/bootstrap
 
 // Load taslations
 //= require ../commons/libs/i18n/translations
@@ -56,6 +57,5 @@
 
 // Load scaleApp modules
 //= require_tree ../commons/modules/layout
-//= require_tree ../commons/modules/pagination
 //= require_tree ../commons/modules/spinner
 //= require_tree ./src/modules/facts

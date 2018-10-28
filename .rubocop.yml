@@ -1,0 +1,23 @@
+# This is the configuration used to check the rubocop source code.
+
+AllCops:
+  Exclude:
+    - 'config/puma.rb'
+    - 'vendor/**/*'
+    - 'bin/**/*'
+    - 'tmp/**/*'
+    - 'db/schema.rb'
+    - 'app/frontend/node_modules/**/*'
+  TargetRubyVersion: 2.3
+
+Style/Encoding:
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'config/routes.rb'
+
+Metrics/AbcSize:
+  Exclude:
+    - 'lib/tasks/**/*'

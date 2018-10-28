@@ -1,4 +1,7 @@
-example_id                          | status | run_time        |
------------------------------------ | ------ | --------------- |
-./spec/routes/facts_spec.rb[1:1]    | passed | 0.00273 seconds |
-./spec/routes/frontend_spec.rb[1:1] | passed | 0.001 seconds   |
+example_id                                          | status | run_time        |
+--------------------------------------------------- | ------ | --------------- |
+./spec/controllers/facts/index_spec.rb[1:1:1]       | passed | 0.56428 seconds |
+./spec/controllers/facts/index_spec.rb[1:1:2]       | passed | 0.63648 seconds |
+./spec/controllers/frontend/ib/index_spec.rb[1:1:1] | passed | 0.00547 seconds |
+./spec/routes/facts_spec.rb[1:1]                    | passed | 0.00122 seconds |
+./spec/routes/frontend_spec.rb[1:1]                 | passed | 0.0024 seconds  |

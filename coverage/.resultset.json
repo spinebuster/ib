@@ -1,5 +1,5 @@
 {
-  "RSpec:27882": {
+  "RSpec:17259": {
     "coverage": {
       "/home/jencijo/workspace/ib/spec/spec_helper.rb": [
         null,
@@ -106,7 +106,23 @@
       "/home/jencijo/workspace/ib/app/helpers/application_helper.rb": [
         null,
         null,
+        null,
         1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/jencijo/workspace/ib/spec/support/matchers/json_helper.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/home/jencijo/workspace/ib/app/controllers/facts_controller.rb": [
@@ -115,7 +131,7 @@
         null,
         1,
         1,
-        0,
+        2,
         null,
         null
       ],
@@ -219,11 +235,11 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
+        2,
+        2,
+        2,
+        2,
+        2,
         null,
         null,
         null,
@@ -231,7 +247,7 @@
         1,
         null,
         1,
-        0,
+        2,
         null,
         null,
         null,
@@ -239,19 +255,18 @@
         null,
         null
       ],
-      "/home/jencijo/workspace/ib/spec/routes/frontend_spec.rb": [
+      "/home/jencijo/workspace/ib/spec/controllers/frontend/ib/index_spec.rb": [
         null,
         null,
         1,
         null,
+        null,
+        null,
         1,
         1,
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
+        1,
         null,
         null,
         null
@@ -277,8 +292,82 @@
         1,
         null,
         null
+      ],
+      "/home/jencijo/workspace/ib/spec/routes/facts_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/jencijo/workspace/ib/spec/routes/frontend_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/jencijo/workspace/ib/app/services/facts/index.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        2,
+        2,
+        0,
+        2,
+        0,
+        null,
+        2,
+        null,
+        null,
+        2,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/jencijo/workspace/ib/app/services/application_service.rb": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1540544676
+    "timestamp": 1540727570
   }
 }

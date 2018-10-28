@@ -10,7 +10,10 @@ Ib.modules.facts.Model = function(sb) {
   };
 
   return sb.backbone.Model.extend({
-    defaults: {},
+    defaults: {
+      category: '',
+      categories: []
+    },
     start: start,
     destroy: destroy
   });

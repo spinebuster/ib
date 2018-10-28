@@ -69,4 +69,4 @@ module Concerns
       render file: 'public/500.html', status: 500
     end
   end
-  end
+end

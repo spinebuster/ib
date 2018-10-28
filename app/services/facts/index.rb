@@ -7,13 +7,15 @@ module Services
     # This is the Roles index service
     class Index < Services::ApplicationService
       def execute!
-        url =
+        url = +'https://api.chucknorris.io/jokes/'
+
+        url +=
           if @params.key?('query')
-            "https://api.chucknorris.io/jokes/search?query=#{@params[:query]}"
+            "search?query=#{@params[:query]}"
           elsif @params.key?('category')
-            "https://api.chucknorris.io/jokes/random?category=#{@params[:category]}"
+            "random?category=#{@params[:category]}"
           else
-            'https://api.chucknorris.io/jokes/random'
+            'random'
           end
 
         URI.parse(url).read

@@ -1,0 +1,21 @@
+es:
+  js:
+    facts:
+      categories:
+        random: Aleatorio
+        explicit: Explícito
+        dev: Dev
+        movie: Película
+        food: Comida
+        celebrity: Celebridad
+        science: Ciencia
+        sport: Deporte
+        political: Política
+        religion: Religión
+        animal: Animales
+        history: Historia
+        music: Música
+        travel: Viajes
+        career: Carrera
+        money: Dinero
+        fashion: Moda
